@@ -2,7 +2,7 @@
 
 One-page portfolio: final-year electronics projects, websites for small businesses, and interactive maths games.
 
-Live at https://nithyasandhosh.github.io (GitHub Pages).
+Live at https://sandhosh7.github.io (GitHub Pages).
 
 To change it: edit `index.html`, then
 ```
