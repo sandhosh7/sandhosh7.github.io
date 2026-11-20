@@ -1,4 +1,4 @@
-# Nithya Sandhosh – portfolio
+# Nithyasandhosh – portfolio
 
 One-page portfolio: final-year electronics projects, websites for small businesses, and interactive maths games.
 
