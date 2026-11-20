@@ -1,6 +1,6 @@
 # Nithya Sandhosh – portfolio
 
-One-page portfolio: embedded and driver development, final-year electronics projects, and websites for small businesses.
+One-page portfolio: final-year electronics projects, websites for small businesses, and interactive maths games.
 
 Live at https://nithyasandhosh.github.io (GitHub Pages).
 

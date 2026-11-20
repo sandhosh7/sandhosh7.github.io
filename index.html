@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nithya Sandhosh · Embedded, Projects & Websites</title>
-<meta name="description" content="Freelance embedded and driver developer. Final-year electronics projects for engineering students, and websites for rentals, food ordering and small shops.">
+<title>Nithya Sandhosh · Electronics Projects & Websites</title>
+<meta name="description" content="Freelance electronics engineer. Final-year electronics projects for engineering students, and websites for rentals, food ordering and small shops.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
@@ -123,7 +123,7 @@
   .about .text { display: grid; gap: 16px; color: var(--ink-soft); min-width: 0; }
   .about .text strong { color: var(--ink); }
   .skills { display: grid; gap: 18px; }
-  .skills div { display: grid; gap: 8px; }
+  .skills > div { display: grid; gap: 8px; }
   @media (max-width: 820px) { .about { grid-template-columns: 1fr; } }
 
   /* Contact */
@@ -160,10 +160,10 @@
   </svg>
   <div class="wrap">
     <p class="mono">Freelance · Puducherry / Tamil Nadu · Remote</p>
-    <h1>Embedded developer.<br><span>I build drivers, devices and websites.</span></h1>
-    <p class="lead">3 years of industry experience in device drivers and embedded C. I take on driver work, build complete final-year electronics projects for engineering students, and make simple, fast websites for small businesses.</p>
+    <h1>Electronics engineer.<br><span>I build student projects and business websites.</span></h1>
+    <p class="lead">BE in Electronics and Communication Engineering. I build complete final-year electronics projects for engineering students, and simple, fast websites for small businesses: rentals, food ordering and shops.</p>
     <div class="chips">
-      <span class="chip">Device drivers</span><span class="chip">Embedded C</span><span class="chip">Microcontrollers &amp; IoT</span><span class="chip">Final-year projects</span><span class="chip">Business websites</span>
+      <span class="chip">Final-year projects</span><span class="chip">Arduino &amp; ESP32</span><span class="chip">IoT</span><span class="chip">Business websites</span><span class="chip">Maths games</span>
     </div>
     <div class="actions">
       <a class="btn primary" href="#contact">Get a quote</a>
@@ -178,15 +178,9 @@
     <div class="section-head">
       <p class="mono eyebrow">What I do</p>
       <h2>Three ways I can help</h2>
-      <p>From low-level code that talks to hardware, to a website your customers book from.</p>
+      <p>From a working circuit for your final-year demo to a website your customers book from.</p>
     </div>
     <div class="grid3">
-      <article class="card">
-        <div class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg></div>
-        <h3>Driver &amp; embedded development</h3>
-        <p>Device drivers and firmware in C for real hardware, written to be stable and easy to maintain.</p>
-        <ul><li>Device drivers and board bring-up</li><li>Embedded C firmware, peripherals (UART, SPI, I²C, GPIO)</li><li>Debugging, fixes and code reviews</li></ul>
-      </article>
       <article class="card copper">
         <div class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div>
         <h3>Final-year electronics projects</h3>
@@ -198,6 +192,12 @@
         <h3>Websites for small businesses</h3>
         <p>Booking and ordering sites that work on any phone, with an owner page to manage everything.</p>
         <ul><li>Bike and scooter rental</li><li>Food ordering and delivery</li><li>Shop and product sales sites</li></ul>
+      </article>
+      <article class="card copper">
+        <div class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h6"/><circle cx="18" cy="16" r="3"/></svg></div>
+        <h3>Interactive maths games</h3>
+        <p>Maths activities in Snap! that students play with, for schools, teachers and tuition centres.</p>
+        <ul><li>Equation Battle: 2 players solve equations on balance scales</li><li>Square Builder: see why (x + y)² = x² + 2xy + y²</li><li>Simple code students can read</li></ul>
       </article>
     </div>
   </div>
@@ -278,14 +278,14 @@
     <div class="text">
       <p class="mono eyebrow">About me</p>
       <h2 style="color:var(--ink)">Hello, I’m Nithya Sandhosh</h2>
-      <p>I’m an embedded engineer with a <strong>BE in Electronics and Communication Engineering</strong> and <strong>3 years of industry experience</strong> in device driver development and embedded C.</p>
-      <p>Alongside that, I build complete electronics projects for final-year students and websites for local businesses, like scooter rentals and cloud kitchens.</p>
+      <p>I’m an electronics engineer with a <strong>BE in Electronics and Communication Engineering</strong>.</p>
+      <p>I build complete electronics projects for final-year students, websites for local businesses like scooter rentals and cloud kitchens, and maths games that make algebra easy to see.</p>
       <p>I like work that is clear, tested and handed over properly, so it keeps working after I leave.</p>
     </div>
     <div class="skills">
-      <div><p class="mono eyebrow">Embedded</p><div class="tags"><span class="tag">C / Embedded C</span><span class="tag">Device drivers</span><span class="tag">Linux</span><span class="tag">Microcontrollers</span><span class="tag">UART · SPI · I²C</span><span class="tag">Debugging</span></div></div>
-      <div><p class="mono eyebrow">Projects</p><div class="tags"><span class="tag">Arduino</span><span class="tag">ESP32</span><span class="tag">Sensors</span><span class="tag">IoT dashboards</span><span class="tag">PCB &amp; circuits</span></div></div>
+            <div><p class="mono eyebrow">Projects</p><div class="tags"><span class="tag">Arduino</span><span class="tag">ESP32</span><span class="tag">Sensors</span><span class="tag">IoT dashboards</span><span class="tag">Circuits</span><span class="tag">C</span></div></div>
       <div><p class="mono eyebrow">Web</p><div class="tags"><span class="tag">HTML · CSS · JavaScript</span><span class="tag">Node.js</span><span class="tag">Databases</span><span class="tag">Cloudflare</span><span class="tag">Payments</span></div></div>
+      <div><p class="mono eyebrow">Teaching tools</p><div class="tags"><span class="tag">Snap!</span><span class="tag">Interactive maths</span></div></div>
     </div>
   </div>
 </section>
@@ -295,11 +295,14 @@
     <div class="contact">
       <p class="mono" style="color:#7FD3A4">Let’s work together</p>
       <h2>Have a project in mind?</h2>
-      <p>Tell me what you need: driver work, a final-year project, or a website for your business. I usually reply the same day.</p>
+      <p>Tell me what you need: a final-year project, a website for your business, or a maths game for your class. I usually reply the same day.</p>
       <div class="lines">
-        <!-- CONTACT: replace these two lines with your real details before publishing -->
-        <div><span>WhatsApp</span> [your WhatsApp number]</div>
-        <div><span>Email</span> [your email]</div>
+        <div><span>WhatsApp</span> <a href="https://wa.me/919751241372" target="_blank" rel="noopener">+91 97512 41372</a></div>
+        <div><span>Email</span> <a href="mailto:nithyasandhosh.ezee@gmail.com">nithyasandhosh.ezee@gmail.com</a></div>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="https://wa.me/919751241372?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20have%20a%20project." target="_blank" rel="noopener">Message on WhatsApp</a>
+        <a class="btn ghost" href="mailto:nithyasandhosh.ezee@gmail.com">Send an email</a>
       </div>
     </div>
   </div>
@@ -307,7 +310,7 @@
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Nithya Sandhosh · Embedded, projects &amp; websites</div>
+  <div class="wrap">© 2026 Nithya Sandhosh · Electronics projects &amp; websites</div>
 </footer>
 
 </body>
